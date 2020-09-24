@@ -7,9 +7,9 @@ class PostController < ApplicationController
 		@post = Post.find(params[:id])
 	end
 
-	# def new
-	# 	@post = Post.new
-	# end
+	def new
+		@post = Post.new
+	end
 
 	def create
 	  @post = Post.new
